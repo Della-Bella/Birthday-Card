@@ -1,0 +1,152 @@
+body {
+    text-align: center;
+        font-family: 'Happy Monkey', cursive;
+        font-size: 20px;
+        font-weight: 500;
+        font-style: normal;
+        text-align: center;
+        background: rgb(255, 255, 255);
+        background:linear-gradient(31deg, rgba(6,21,255,1) 0%, rgba(251,255,0,1) 35%, rgba(255,17,228,1) 64%, rgba(0,255,224,1) 100%);
+      .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+
+      }
+      
+h1, h2,h3 , h4, p{
+    font-family: "Happy Monkey";
+    text-shadow: 0px 0px 2px rgb(28, 27, 27); 
+}
+
+#pic{
+    width: 200px;   
+    height: 200px;
+    border-radius:500%;
+    border-radius: 150px;
+    border: 10px dotted  #fffb00;
+   
+}
+
+#bday-age{
+    padding: 15px 20px;
+    background: #ef8649;
+    border-radius: 10px;
+    margin: 30px 0 10px 0;
+   
+}
+
+#bday-date{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 20px 25px;
+    background: #50cce7;
+    border-radius: 10px;
+}
+
+.gift-meassage{
+color: #ffffff; 
+margin-bottom: 20px;
+}
+.gift-cta{
+color: #ffffff;
+margin-top: 0x;
+}
+    
+.gift-img {
+    width: 500px;
+    height: 500px;
+   margin-bottom: 100px;
+   margin-top: 50px;
+    border-radius: 10px;
+    background-size: cover;
+   margin: 0 auto;
+}
+
+
+.gift-img-happy {
+        background-image: url(img/box1.png);
+        border: 20px groove rgb(255, 243, 6);
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+
+#gift-img-happy:hover {
+    background-image: url(img/happy.webp);
+}
+
+.gift-img-g {
+    background-image: url(img/box2.png);
+    border: 30px dashed rgb(2, 250, 19);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+        margin-top: 50px;
+}
+
+#gift-img-green:hover {
+    background-image: url(img/surprise.webp);
+}
+
+.gift-img-y {
+    background-image: url(img/box4.png);
+    border: 30px groove rgb(2, 247, 234);
+    margin-bottom: 100px;
+        margin-top: 50px;
+}
+
+#gift-img-yellow:hover {
+    background-image: url(img/coder.webp);
+}
+
+.gift-img-r {
+    background-image: url(img/box3.png);
+    border: 40px dotted rgb(17, 0, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+        margin-top: 50px;
+}
+
+#gift-img-red:hover {
+    background-image: url(img/me.webp);
+}
+
+.gift-img-chr {
+    background-image: url(img/box5.png);
+    
+    margin-bottom: 100px;
+    margin-top: 50px;
+    width: 400px;
+    height: 300px;
+}
+
+#gift-img-cheers:hover {
+    background-image: url(img/cheers.webp);
+}
+
+footer{
+    background-color: rgb(255, 254, 254);
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a { 
+    color: inherit; 
+ } 
+
+#info{
+    color: rgb(41, 41, 41);
+    font-size:  30px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
